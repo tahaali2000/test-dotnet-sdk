@@ -12,15 +12,15 @@ Find out more here: [https://developer.paypal.com/docs/api/orders/v2/](https://d
 If you are building with .NET CLI tools then you can also use the following command:
 
 ```bash
-dotnet add package TestSDK --version 1.2.6
+dotnet add package TestSDK --version 1.3.8
 ```
 
 You can also view the package at:
-https://www.nuget.org/packages/TestSDK/1.2.6
+https://www.nuget.org/packages/TestSDK/1.3.8
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.2.6/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.3.8/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -28,9 +28,9 @@ The following parameters are configurable for the API Client:
 |  --- | --- | --- |
 | Environment | `Environment` | The API environment. <br> **Default: `Environment.Sandbox`** |
 | Timeout | `TimeSpan` | Http client timeout.<br>*Default*: `TimeSpan.FromSeconds(100)` |
-| HttpClientConfiguration | [`Action<HttpClientConfiguration.Builder>`](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.2.6/doc/http-client-configuration-builder.md) | Action delegate that configures the HTTP client by using the HttpClientConfiguration.Builder for customizing API call settings.<br>*Default*: `new HttpClient()` |
-| LogBuilder | [`LogBuilder`](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.2.6/doc/log-builder.md) | Represents the logging configuration builder for API calls |
-| ClientCredentialsAuth | [`ClientCredentialsAuth`](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.2.6/doc/auth/oauth-2-client-credentials-grant.md) | The Credentials Setter for OAuth 2 Client Credentials Grant |
+| HttpClientConfiguration | [`Action<HttpClientConfiguration.Builder>`](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.3.8/doc/http-client-configuration-builder.md) | Action delegate that configures the HTTP client by using the HttpClientConfiguration.Builder for customizing API call settings.<br>*Default*: `new HttpClient()` |
+| LogBuilder | [`LogBuilder`](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.3.8/doc/log-builder.md) | Represents the logging configuration builder for API calls |
+| ClientCredentialsAuth | [`ClientCredentialsAuth`](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.3.8/doc/auth/oauth-2-client-credentials-grant.md) | The Credentials Setter for OAuth 2 Client Credentials Grant |
 
 The API client can be initialized as follows:
 
@@ -66,35 +66,35 @@ The SDK can be configured to use a different environment for making API calls. A
 
 This API uses the following authentication schemes.
 
-* [`Oauth2 (OAuth 2 Client Credentials Grant)`](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.2.6/doc/auth/oauth-2-client-credentials-grant.md)
+* [`Oauth2 (OAuth 2 Client Credentials Grant)`](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.3.8/doc/auth/oauth-2-client-credentials-grant.md)
 
 ## List of APIs
 
-* [Orders](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.2.6/doc/controllers/orders.md)
-* [Payments](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.2.6/doc/controllers/payments.md)
-* [Vault](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.2.6/doc/controllers/vault.md)
+* [Orders](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.3.8/doc/controllers/orders.md)
+* [Payments](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.3.8/doc/controllers/payments.md)
+* [Vault](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.3.8/doc/controllers/vault.md)
 
 ## SDK Infrastructure
 
 ### Configuration
 
-* [HttpClientConfiguration](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.2.6/doc/http-client-configuration.md)
-* [HttpClientConfigurationBuilder](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.2.6/doc/http-client-configuration-builder.md)
-* [LogBuilder](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.2.6/doc/log-builder.md)
-* [LogRequestBuilder](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.2.6/doc/log-request-builder.md)
-* [LogResponseBuilder](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.2.6/doc/log-response-builder.md)
-* [ProxyConfigurationBuilder](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.2.6/doc/proxy-configuration-builder.md)
+* [HttpClientConfiguration](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.3.8/doc/http-client-configuration.md)
+* [HttpClientConfigurationBuilder](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.3.8/doc/http-client-configuration-builder.md)
+* [LogBuilder](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.3.8/doc/log-builder.md)
+* [LogRequestBuilder](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.3.8/doc/log-request-builder.md)
+* [LogResponseBuilder](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.3.8/doc/log-response-builder.md)
+* [ProxyConfigurationBuilder](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.3.8/doc/proxy-configuration-builder.md)
 
 ### HTTP
 
-* [HttpCallback](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.2.6/doc/http-callback.md)
-* [HttpContext](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.2.6/doc/http-context.md)
-* [HttpRequest](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.2.6/doc/http-request.md)
-* [HttpResponse](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.2.6/doc/http-response.md)
-* [HttpStringResponse](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.2.6/doc/http-string-response.md)
+* [HttpCallback](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.3.8/doc/http-callback.md)
+* [HttpContext](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.3.8/doc/http-context.md)
+* [HttpRequest](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.3.8/doc/http-request.md)
+* [HttpResponse](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.3.8/doc/http-response.md)
+* [HttpStringResponse](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.3.8/doc/http-string-response.md)
 
 ### Utilities
 
-* [ApiException](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.2.6/doc/api-exception.md)
-* [ApiHelper](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.2.6/doc/api-helper.md)
+* [ApiException](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.3.8/doc/api-exception.md)
+* [ApiHelper](https://www.github.com/tahaali2000/test-dotnet-sdk/tree/1.3.8/doc/api-helper.md)
 

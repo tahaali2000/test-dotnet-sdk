@@ -41,7 +41,7 @@ namespace PayPalRESTAPIs.Standard
 
         private readonly GlobalConfiguration globalConfiguration;
         private SdkLoggingConfiguration sdkLoggingConfiguration;
-        private const string userAgent = "PayPal REST API DotNet SDK, Version: 1.2.6, on OS {os-info}";
+        private const string userAgent = "PayPal REST API DotNet SDK, Version: 1.3.8, on OS {os-info}";
         private readonly HttpCallback httpCallback;
         private readonly Lazy<OrdersController> orders;
         private readonly Lazy<PaymentsController> payments;
