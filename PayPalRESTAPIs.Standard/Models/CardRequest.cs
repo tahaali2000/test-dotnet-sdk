@@ -42,13 +42,13 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="networkToken">network_token.</param>
         /// <param name="experienceContext">experience_context.</param>
         public CardRequest(
-            string name = "",
-            string number = "",
-            string expiry = "",
-            string securityCode = "",
+            string name = null,
+            string number = null,
+            string expiry = null,
+            string securityCode = null,
             Models.Address billingAddress = null,
             Models.CardAttributes attributes = null,
-            string vaultId = "",
+            string vaultId = null,
             Models.CardStoredCredential storedCredential = null,
             Models.NetworkToken networkToken = null,
             Models.CardExperienceContext experienceContext = null)

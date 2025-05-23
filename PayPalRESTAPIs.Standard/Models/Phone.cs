@@ -37,7 +37,7 @@ namespace PayPalRESTAPIs.Standard.Models
         public Phone(
             string countryCode,
             string nationalNumber,
-            string extensionNumber = "")
+            string extensionNumber = null)
         {
             this.CountryCode = countryCode;
             this.NationalNumber = nationalNumber;

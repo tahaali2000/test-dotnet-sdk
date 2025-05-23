@@ -34,8 +34,8 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="id">id.</param>
         /// <param name="merchantCustomerId">merchant_customer_id.</param>
         public CustomerRequest(
-            string id = "",
-            string merchantCustomerId = "")
+            string id = null,
+            string merchantCustomerId = null)
         {
             this.Id = id;
             this.MerchantCustomerId = merchantCustomerId;

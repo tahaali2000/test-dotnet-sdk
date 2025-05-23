@@ -39,9 +39,9 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="address">address.</param>
         /// <param name="attributes">attributes.</param>
         public VenmoWalletResponse(
-            string emailAddress = "",
-            string accountId = "",
-            string userName = "",
+            string emailAddress = null,
+            string accountId = null,
+            string userName = null,
             Models.Name name = null,
             Models.PhoneNumber phoneNumber = null,
             Models.Address address = null,

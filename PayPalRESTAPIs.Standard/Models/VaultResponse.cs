@@ -36,7 +36,7 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="customer">customer.</param>
         /// <param name="links">links.</param>
         public VaultResponse(
-            string id = "",
+            string id = null,
             Models.VaultStatus? status = null,
             Models.VaultCustomer customer = null,
             List<Models.LinkDescription> links = null)

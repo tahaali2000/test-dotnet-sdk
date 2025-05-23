@@ -38,12 +38,12 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="createTime">create_time.</param>
         /// <param name="updateTime">update_time.</param>
         public OrderTrackerResponse(
-            string id = "",
+            string id = null,
             Models.OrderTrackerStatus? status = null,
             List<Models.OrderTrackerItem> items = null,
             List<Models.LinkDescription> links = null,
-            string createTime = "",
-            string updateTime = "")
+            string createTime = null,
+            string updateTime = null)
         {
             this.Id = id;
             this.Status = status;

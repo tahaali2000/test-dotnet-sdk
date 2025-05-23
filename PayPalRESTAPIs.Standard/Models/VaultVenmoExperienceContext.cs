@@ -35,7 +35,7 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="shippingPreference">shipping_preference.</param>
         /// <param name="vaultInstruction">vault_instruction.</param>
         public VaultVenmoExperienceContext(
-            string brandName = "",
+            string brandName = null,
             string shippingPreference = "GET_FROM_FILE",
             string vaultInstruction = "ON_CREATE_PAYMENT_TOKENS")
         {

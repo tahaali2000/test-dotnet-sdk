@@ -35,7 +35,7 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="accountHolderName">account_holder_name.</param>
         /// <param name="billingAddress">billing_address.</param>
         public VaultSEPADebitResponse(
-            string ibanLastChars = "",
+            string ibanLastChars = null,
             object accountHolderName = null,
             Models.Address billingAddress = null)
         {

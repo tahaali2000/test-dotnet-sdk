@@ -37,8 +37,8 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="brand">brand.</param>
         /// <param name="billingAddress">billing_address.</param>
         public ApplePayCard(
-            string name = "",
-            string lastDigits = "",
+            string name = null,
+            string lastDigits = null,
             Models.CardType? type = null,
             Models.CardBrand? brand = null,
             Models.Address billingAddress = null)

@@ -37,11 +37,11 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="ibanLastChars">iban_last_chars.</param>
         /// <param name="cardLastDigits">card_last_digits.</param>
         public BancontactPaymentObject(
-            string name = "",
-            string countryCode = "",
-            string bic = "",
-            string ibanLastChars = "",
-            string cardLastDigits = "")
+            string name = null,
+            string countryCode = null,
+            string bic = null,
+            string ibanLastChars = null,
+            string cardLastDigits = null)
         {
             this.Name = name;
             this.CountryCode = countryCode;

@@ -46,11 +46,11 @@ namespace PayPalRESTAPIs.Standard.Models
             Models.Money unitAmount,
             string quantity,
             Models.Money tax = null,
-            string description = "",
-            string sku = "",
-            string url = "",
+            string description = null,
+            string sku = null,
+            string url = null,
             Models.ItemCategory? category = null,
-            string imageUrl = "",
+            string imageUrl = null,
             Models.UniversalProductCode upc = null)
         {
             this.Name = name;

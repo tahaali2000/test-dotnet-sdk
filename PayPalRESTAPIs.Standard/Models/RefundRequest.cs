@@ -38,9 +38,9 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="paymentInstruction">payment_instruction.</param>
         public RefundRequest(
             Models.Money amount = null,
-            string customId = "",
-            string invoiceId = "",
-            string noteToPayer = "",
+            string customId = null,
+            string invoiceId = null,
+            string noteToPayer = null,
             Models.RefundPaymentInstruction paymentInstruction = null)
         {
             this.Amount = amount;

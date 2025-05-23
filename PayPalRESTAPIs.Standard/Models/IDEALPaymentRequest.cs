@@ -38,7 +38,7 @@ namespace PayPalRESTAPIs.Standard.Models
         public IDEALPaymentRequest(
             string name,
             string countryCode,
-            string bic = "",
+            string bic = null,
             Models.ExperienceContext experienceContext = null)
         {
             this.Name = name;

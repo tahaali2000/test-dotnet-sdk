@@ -44,15 +44,15 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="phoneNumber">phone_number.</param>
         public AddressDetails(
             string countryCode,
-            string addressLine1 = "",
-            string addressLine2 = "",
-            string adminArea2 = "",
-            string adminArea1 = "",
-            string postalCode = "",
+            string addressLine1 = null,
+            string addressLine2 = null,
+            string adminArea2 = null,
+            string adminArea1 = null,
+            string postalCode = null,
             Models.Name name = null,
-            string id = "",
-            string company = "",
-            string phone = "",
+            string id = null,
+            string company = null,
+            string phone = null,
             Models.Phone phoneNumber = null)
         {
             this.AddressLine1 = addressLine1;

@@ -45,15 +45,15 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="supplementaryData">supplementary_data.</param>
         /// <param name="payments">payments.</param>
         public PurchaseUnit(
-            string referenceId = "",
+            string referenceId = null,
             Models.AmountWithBreakdown amount = null,
             Models.Payee payee = null,
             Models.PaymentInstruction paymentInstruction = null,
-            string description = "",
-            string customId = "",
-            string invoiceId = "",
-            string id = "",
-            string softDescriptor = "",
+            string description = null,
+            string customId = null,
+            string invoiceId = null,
+            string id = null,
+            string softDescriptor = null,
             List<Models.Item> items = null,
             Models.ShippingWithTrackingDetails shipping = null,
             Models.SupplementaryData supplementaryData = null,

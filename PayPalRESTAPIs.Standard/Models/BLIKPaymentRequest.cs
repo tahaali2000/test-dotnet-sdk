@@ -40,7 +40,7 @@ namespace PayPalRESTAPIs.Standard.Models
         public BLIKPaymentRequest(
             string name,
             string countryCode,
-            string email = "",
+            string email = null,
             Models.BLIKExperienceContext experienceContext = null,
             Models.BLIKLevel0PaymentObject level0 = null,
             Models.BLIKOneClickPaymentRequest oneClick = null)

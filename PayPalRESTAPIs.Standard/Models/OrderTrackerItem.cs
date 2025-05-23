@@ -38,11 +38,11 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="imageUrl">image_url.</param>
         /// <param name="upc">upc.</param>
         public OrderTrackerItem(
-            string name = "",
-            string quantity = "",
-            string sku = "",
-            string url = "",
-            string imageUrl = "",
+            string name = null,
+            string quantity = null,
+            string sku = null,
+            string url = null,
+            string imageUrl = null,
             Models.UniversalProductCode upc = null)
         {
             this.Name = name;

@@ -37,7 +37,7 @@ namespace PayPalRESTAPIs.Standard.Models
         public CapturePaymentInstruction(
             List<Models.PlatformFee> platformFees = null,
             Models.DisbursementMode? disbursementMode = Models.DisbursementMode.INSTANT,
-            string payeeReceivableFxRateId = "")
+            string payeeReceivableFxRateId = null)
         {
             this.PlatformFees = platformFees;
             this.DisbursementMode = disbursementMode;

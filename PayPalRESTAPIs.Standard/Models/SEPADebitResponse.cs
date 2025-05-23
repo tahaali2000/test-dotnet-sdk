@@ -36,7 +36,7 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="billingAddress">billing_address.</param>
         /// <param name="authorizationDetails">authorization_details.</param>
         public SEPADebitResponse(
-            string ibanLastChars = "",
+            string ibanLastChars = null,
             object accountHolderName = null,
             Models.Address billingAddress = null,
             Models.SEPADebitAuthorizationDetails authorizationDetails = null)

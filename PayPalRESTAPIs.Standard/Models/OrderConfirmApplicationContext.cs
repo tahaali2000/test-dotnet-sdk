@@ -37,10 +37,10 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="cancelUrl">cancel_url.</param>
         /// <param name="storedPaymentSource">stored_payment_source.</param>
         public OrderConfirmApplicationContext(
-            string brandName = "",
-            string locale = "",
-            string returnUrl = "",
-            string cancelUrl = "",
+            string brandName = null,
+            string locale = null,
+            string returnUrl = null,
+            string cancelUrl = null,
             Models.StoredPaymentSource storedPaymentSource = null)
         {
             this.BrandName = brandName;

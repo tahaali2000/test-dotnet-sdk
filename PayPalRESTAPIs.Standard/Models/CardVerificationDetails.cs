@@ -38,10 +38,10 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="amount">amount.</param>
         /// <param name="processorResponse">processor_response.</param>
         public CardVerificationDetails(
-            string networkTransactionId = "",
-            string date = "",
+            string networkTransactionId = null,
+            string date = null,
             Models.CardBrand? network = null,
-            string time = "",
+            string time = null,
             Models.Money amount = null,
             Models.CardVerificationProcessorResponse processorResponse = null)
         {

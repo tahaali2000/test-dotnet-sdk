@@ -40,13 +40,13 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="vaultId">vault_id.</param>
         /// <param name="attributes">attributes.</param>
         public ApplePayRequest(
-            string id = "",
-            string name = "",
-            string emailAddress = "",
+            string id = null,
+            string name = null,
+            string emailAddress = null,
             Models.PhoneNumber phoneNumber = null,
             Models.ApplePayDecryptedTokenData decryptedToken = null,
             Models.CardStoredCredential storedCredential = null,
-            string vaultId = "",
+            string vaultId = null,
             Models.ApplePayAttributes attributes = null)
         {
             this.Id = id;

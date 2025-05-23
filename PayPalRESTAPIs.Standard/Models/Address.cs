@@ -39,11 +39,11 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="postalCode">postal_code.</param>
         public Address(
             string countryCode,
-            string addressLine1 = "",
-            string addressLine2 = "",
-            string adminArea2 = "",
-            string adminArea1 = "",
-            string postalCode = "")
+            string addressLine1 = null,
+            string addressLine2 = null,
+            string adminArea2 = null,
+            string adminArea1 = null,
+            string postalCode = null)
         {
             this.AddressLine1 = addressLine1;
             this.AddressLine2 = addressLine2;

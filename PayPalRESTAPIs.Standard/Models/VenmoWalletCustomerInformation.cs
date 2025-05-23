@@ -34,8 +34,8 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="id">id.</param>
         /// <param name="emailAddress">email_address.</param>
         public VenmoWalletCustomerInformation(
-            string id = "",
-            string emailAddress = "")
+            string id = null,
+            string emailAddress = null)
         {
             this.Id = id;
             this.EmailAddress = emailAddress;

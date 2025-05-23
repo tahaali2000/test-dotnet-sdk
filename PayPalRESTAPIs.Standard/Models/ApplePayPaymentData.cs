@@ -36,10 +36,10 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="emvData">emv_data.</param>
         /// <param name="pin">pin.</param>
         public ApplePayPaymentData(
-            string cryptogram = "",
-            string eciIndicator = "",
-            string emvData = "",
-            string pin = "")
+            string cryptogram = null,
+            string eciIndicator = null,
+            string emvData = null,
+            string pin = null)
         {
             this.Cryptogram = cryptogram;
             this.EciIndicator = eciIndicator;

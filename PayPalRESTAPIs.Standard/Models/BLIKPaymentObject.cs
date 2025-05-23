@@ -36,9 +36,9 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="email">email.</param>
         /// <param name="oneClick">one_click.</param>
         public BLIKPaymentObject(
-            string name = "",
-            string countryCode = "",
-            string email = "",
+            string name = null,
+            string countryCode = null,
+            string email = null,
             Models.BLIKOneClickPaymentObject oneClick = null)
         {
             this.Name = name;

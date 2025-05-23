@@ -33,7 +33,7 @@ namespace PayPalRESTAPIs.Standard.Models
         /// </summary>
         /// <param name="id">id.</param>
         public VaultCustomer(
-            string id = "")
+            string id = null)
         {
             this.Id = id;
         }

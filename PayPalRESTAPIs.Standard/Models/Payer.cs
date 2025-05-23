@@ -39,11 +39,11 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="taxInfo">tax_info.</param>
         /// <param name="address">address.</param>
         public Payer(
-            string emailAddress = "",
-            string payerId = "",
+            string emailAddress = null,
+            string payerId = null,
             Models.Name name = null,
             Models.PhoneWithType phone = null,
-            string birthDate = "",
+            string birthDate = null,
             Models.TaxInfo taxInfo = null,
             Models.Address address = null)
         {

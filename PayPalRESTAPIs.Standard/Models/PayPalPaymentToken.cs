@@ -44,17 +44,17 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="accountId">account_id.</param>
         /// <param name="phoneNumber">phone_number.</param>
         public PayPalPaymentToken(
-            string description = "",
+            string description = null,
             Models.VaultedDigitalWalletShippingDetails shipping = null,
             bool? permitMultiplePaymentTokens = false,
-            string usageType = "",
-            string customerType = "",
-            string emailAddress = "",
-            string payerId = "",
+            string usageType = null,
+            string customerType = null,
+            string emailAddress = null,
+            string payerId = null,
             Models.Name name = null,
             Models.PhoneWithType phone = null,
             Models.Address address = null,
-            string accountId = "",
+            string accountId = null,
             Models.Phone phoneNumber = null)
         {
             this.Description = description;

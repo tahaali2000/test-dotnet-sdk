@@ -40,10 +40,10 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="billingAddress">billing_address.</param>
         /// <param name="networkTransactionReference">network_transaction_reference.</param>
         public PaymentTokenRequestCard(
-            string name = "",
-            string number = "",
-            string expiry = "",
-            string securityCode = "",
+            string name = null,
+            string number = null,
+            string expiry = null,
+            string securityCode = null,
             Models.CardType? type = null,
             Models.CardBrand? brand = null,
             Models.Address billingAddress = null,

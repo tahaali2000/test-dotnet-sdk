@@ -34,7 +34,7 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="brandName">brand_name.</param>
         /// <param name="shippingPreference">shipping_preference.</param>
         public VenmoWalletExperienceContext(
-            string brandName = "",
+            string brandName = null,
             Models.ShippingPreference? shippingPreference = Models.ShippingPreference.GETFROMFILE)
         {
             this.BrandName = brandName;

@@ -40,9 +40,9 @@ namespace PayPalRESTAPIs.Standard.Models
         public OrdersCreateInput(
             string contentType,
             Models.OrderRequest body,
-            string payPalRequestId = "",
-            string payPalPartnerAttributionId = "",
-            string payPalClientMetadataId = "",
+            string payPalRequestId = null,
+            string payPalPartnerAttributionId = null,
+            string payPalClientMetadataId = null,
             string prefer = "return=minimal")
         {
             this.ContentType = contentType;

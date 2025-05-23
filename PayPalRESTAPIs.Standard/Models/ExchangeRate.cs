@@ -35,9 +35,9 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="targetCurrency">target_currency.</param>
         /// <param name="mValue">value.</param>
         public ExchangeRate(
-            string sourceCurrency = "",
-            string targetCurrency = "",
-            string mValue = "")
+            string sourceCurrency = null,
+            string targetCurrency = null,
+            string mValue = null)
         {
             this.SourceCurrency = sourceCurrency;
             this.TargetCurrency = targetCurrency;

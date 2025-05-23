@@ -46,16 +46,16 @@ namespace PayPalRESTAPIs.Standard.Models
         public Authorization(
             Models.AuthorizationStatus? status = null,
             Models.AuthorizationStatusDetails statusDetails = null,
-            string id = "",
+            string id = null,
             Models.Money amount = null,
-            string invoiceId = "",
-            string customId = "",
+            string invoiceId = null,
+            string customId = null,
             Models.NetworkTransactionReference networkTransactionReference = null,
             Models.SellerProtection sellerProtection = null,
-            string expirationTime = "",
+            string expirationTime = null,
             List<Models.LinkDescription> links = null,
-            string createTime = "",
-            string updateTime = "")
+            string createTime = null,
+            string updateTime = null)
         {
             this.Status = status;
             this.StatusDetails = statusDetails;

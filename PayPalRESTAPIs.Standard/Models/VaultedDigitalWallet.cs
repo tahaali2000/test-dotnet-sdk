@@ -37,11 +37,11 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="usageType">usage_type.</param>
         /// <param name="customerType">customer_type.</param>
         public VaultedDigitalWallet(
-            string description = "",
+            string description = null,
             Models.VaultedDigitalWalletShippingDetails shipping = null,
             bool? permitMultiplePaymentTokens = false,
-            string usageType = "",
-            string customerType = "")
+            string usageType = null,
+            string customerType = null)
         {
             this.Description = description;
             this.Shipping = shipping;

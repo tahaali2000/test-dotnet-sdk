@@ -42,13 +42,13 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="address">address.</param>
         /// <param name="attributes">attributes.</param>
         public PayPalWalletResponse(
-            string emailAddress = "",
-            string accountId = "",
+            string emailAddress = null,
+            string accountId = null,
             Models.PayPalWalletAccountVerificationStatus? accountStatus = null,
             Models.Name name = null,
             Models.PhoneType? phoneType = null,
             Models.PhoneNumber phoneNumber = null,
-            string birthDate = "",
+            string birthDate = null,
             Models.TaxInfo taxInfo = null,
             Models.Address address = null,
             Models.PayPalWalletAttributesResponse attributes = null)

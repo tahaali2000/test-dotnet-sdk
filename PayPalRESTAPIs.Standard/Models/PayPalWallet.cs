@@ -42,16 +42,16 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="experienceContext">experience_context.</param>
         /// <param name="billingAgreementId">billing_agreement_id.</param>
         public PayPalWallet(
-            string vaultId = "",
-            string emailAddress = "",
+            string vaultId = null,
+            string emailAddress = null,
             Models.Name name = null,
             Models.PhoneWithType phone = null,
-            string birthDate = "",
+            string birthDate = null,
             Models.TaxInfo taxInfo = null,
             Models.Address address = null,
             Models.PayPalWalletAttributes attributes = null,
             Models.PayPalWalletExperienceContext experienceContext = null,
-            string billingAgreementId = "")
+            string billingAgreementId = null)
         {
             this.VaultId = vaultId;
             this.EmailAddress = emailAddress;

@@ -41,14 +41,14 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="cancelUrl">cancel_url.</param>
         /// <param name="storedPaymentSource">stored_payment_source.</param>
         public OrderApplicationContext(
-            string brandName = "",
-            string locale = "",
+            string brandName = null,
+            string locale = null,
             Models.OrderApplicationContextLandingPage? landingPage = Models.OrderApplicationContextLandingPage.NOPREFERENCE,
             Models.OrderApplicationContextShippingPreference? shippingPreference = Models.OrderApplicationContextShippingPreference.GETFROMFILE,
             Models.OrderApplicationContextUserAction? userAction = Models.OrderApplicationContextUserAction.CONTINUE,
             Models.PaymentMethodPreference paymentMethod = null,
-            string returnUrl = "",
-            string cancelUrl = "",
+            string returnUrl = null,
+            string cancelUrl = null,
             Models.StoredPaymentSource storedPaymentSource = null)
         {
             this.BrandName = brandName;

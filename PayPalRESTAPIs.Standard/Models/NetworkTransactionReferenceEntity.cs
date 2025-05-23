@@ -37,9 +37,9 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="time">time.</param>
         public NetworkTransactionReferenceEntity(
             string id,
-            string date = "",
+            string date = null,
             Models.CardBrand? network = null,
-            string time = "")
+            string time = null)
         {
             this.Id = id;
             this.Date = date;

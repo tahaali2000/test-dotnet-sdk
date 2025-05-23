@@ -39,9 +39,9 @@ namespace PayPalRESTAPIs.Standard.Models
         public NetworkToken(
             string number,
             string expiry,
-            string cryptogram = "",
+            string cryptogram = null,
             Models.ECIFlag? eciFlag = null,
-            string tokenRequestorId = "")
+            string tokenRequestorId = null)
         {
             this.Number = number;
             this.Expiry = expiry;

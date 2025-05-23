@@ -36,8 +36,8 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="phoneNumber">phone_number.</param>
         /// <param name="card">card.</param>
         public GooglePayWalletResponse(
-            string name = "",
-            string emailAddress = "",
+            string name = null,
+            string emailAddress = null,
             Models.PhoneNumberWithCountryCode phoneNumber = null,
             Models.GooglePayCardResponse card = null)
         {

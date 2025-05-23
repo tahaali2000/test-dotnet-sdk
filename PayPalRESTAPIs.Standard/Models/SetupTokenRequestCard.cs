@@ -42,14 +42,14 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="experienceContext">experience_context.</param>
         /// <param name="networkTransactionReference">network_transaction_reference.</param>
         public SetupTokenRequestCard(
-            string name = "",
-            string number = "",
-            string expiry = "",
-            string securityCode = "",
+            string name = null,
+            string number = null,
+            string expiry = null,
+            string securityCode = null,
             Models.CardType? type = null,
             Models.CardBrand? brand = null,
             Models.Address billingAddress = null,
-            string verificationMethod = "",
+            string verificationMethod = null,
             Models.SetupTokenCardExperienceContext experienceContext = null,
             object networkTransactionReference = null)
         {

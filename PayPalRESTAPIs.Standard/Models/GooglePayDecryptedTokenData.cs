@@ -40,10 +40,10 @@ namespace PayPalRESTAPIs.Standard.Models
         public GooglePayDecryptedTokenData(
             Models.GooglePayPaymentMethod paymentMethod,
             Models.GooglePayAuthenticationMethod authenticationMethod,
-            string messageId = "",
-            string messageExpiration = "",
-            string cryptogram = "",
-            string eciIndicator = "")
+            string messageId = null,
+            string messageExpiration = null,
+            string cryptogram = null,
+            string eciIndicator = null)
         {
             this.MessageId = messageId;
             this.MessageExpiration = messageExpiration;

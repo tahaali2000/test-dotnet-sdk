@@ -47,17 +47,17 @@ namespace PayPalRESTAPIs.Standard.Models
         public Refund(
             Models.RefundStatus? status = null,
             Models.RefundStatusDetails statusDetails = null,
-            string id = "",
+            string id = null,
             Models.Money amount = null,
-            string invoiceId = "",
-            string customId = "",
-            string acquirerReferenceNumber = "",
-            string noteToPayer = "",
+            string invoiceId = null,
+            string customId = null,
+            string acquirerReferenceNumber = null,
+            string noteToPayer = null,
             Models.SellerPayableBreakdown sellerPayableBreakdown = null,
             Models.PayeeBase payer = null,
             List<Models.LinkDescription> links = null,
-            string createTime = "",
-            string updateTime = "")
+            string createTime = null,
+            string updateTime = null)
         {
             this.Status = status;
             this.StatusDetails = statusDetails;

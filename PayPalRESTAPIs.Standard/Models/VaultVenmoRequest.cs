@@ -38,11 +38,11 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="customerType">customer_type.</param>
         /// <param name="experienceContext">experience_context.</param>
         public VaultVenmoRequest(
-            string description = "",
+            string description = null,
             Models.VaultedDigitalWalletShippingDetails shipping = null,
             bool? permitMultiplePaymentTokens = false,
-            string usageType = "",
-            string customerType = "",
+            string usageType = null,
+            string customerType = null,
             Models.VaultVenmoExperienceContext experienceContext = null)
         {
             this.Description = description;

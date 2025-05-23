@@ -44,13 +44,13 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="supplementaryData">supplementary_data.</param>
         public PurchaseUnitRequest(
             Models.AmountWithBreakdown amount,
-            string referenceId = "",
+            string referenceId = null,
             Models.Payee payee = null,
             Models.PaymentInstruction paymentInstruction = null,
-            string description = "",
-            string customId = "",
-            string invoiceId = "",
-            string softDescriptor = "",
+            string description = null,
+            string customId = null,
+            string invoiceId = null,
+            string softDescriptor = null,
             List<Models.Item> items = null,
             Models.ShippingDetails shipping = null,
             Models.SupplementaryData supplementaryData = null)

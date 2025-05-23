@@ -39,7 +39,7 @@ namespace PayPalRESTAPIs.Standard.Models
         public AuthorizationsCaptureInput(
             string authorizationId,
             string contentType,
-            string payPalRequestId = "",
+            string payPalRequestId = null,
             string prefer = "return=minimal",
             Models.CaptureRequest body = null)
         {

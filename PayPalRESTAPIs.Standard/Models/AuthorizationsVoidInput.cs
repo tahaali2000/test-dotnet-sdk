@@ -36,7 +36,7 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="prefer">Prefer.</param>
         public AuthorizationsVoidInput(
             string authorizationId,
-            string payPalAuthAssertion = "",
+            string payPalAuthAssertion = null,
             string prefer = "return=minimal")
         {
             this.AuthorizationId = authorizationId;

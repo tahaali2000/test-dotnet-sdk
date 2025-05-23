@@ -41,10 +41,10 @@ namespace PayPalRESTAPIs.Standard.Models
         public OrdersCaptureInput(
             string id,
             string contentType,
-            string payPalRequestId = "",
+            string payPalRequestId = null,
             string prefer = "return=minimal",
-            string payPalClientMetadataId = "",
-            string payPalAuthAssertion = "",
+            string payPalClientMetadataId = null,
+            string payPalAuthAssertion = null,
             Models.OrderCaptureRequest body = null)
         {
             this.Id = id;

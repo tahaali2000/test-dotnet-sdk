@@ -34,8 +34,8 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="emailAddress">email_address.</param>
         /// <param name="merchantId">merchant_id.</param>
         public PayeeBase(
-            string emailAddress = "",
-            string merchantId = "")
+            string emailAddress = null,
+            string merchantId = null)
         {
             this.EmailAddress = emailAddress;
             this.MerchantId = merchantId;

@@ -34,8 +34,8 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="invoiceId">invoice_id.</param>
         /// <param name="noteToPayer">note_to_payer.</param>
         public SupplementaryPurchaseData(
-            string invoiceId = "",
-            string noteToPayer = "")
+            string invoiceId = null,
+            string noteToPayer = null)
         {
             this.InvoiceId = invoiceId;
             this.NoteToPayer = noteToPayer;

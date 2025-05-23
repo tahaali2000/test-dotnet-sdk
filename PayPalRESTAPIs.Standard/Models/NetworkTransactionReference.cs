@@ -37,9 +37,9 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="acquirerReferenceNumber">acquirer_reference_number.</param>
         public NetworkTransactionReference(
             string id,
-            string date = "",
+            string date = null,
             Models.CardBrand? network = null,
-            string acquirerReferenceNumber = "")
+            string acquirerReferenceNumber = null)
         {
             this.Id = id;
             this.Date = date;

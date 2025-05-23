@@ -38,7 +38,7 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="paymentSource">payment_source.</param>
         /// <param name="links">links.</param>
         public SetupTokenResponse(
-            string id = "",
+            string id = null,
             int? ordinal = null,
             Models.CustomerRequest customer = null,
             string status = "CREATED",

@@ -43,12 +43,12 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="binDetails">bin_details.</param>
         /// <param name="type">type.</param>
         public CardResponseEntity(
-            string name = "",
-            string lastDigits = "",
+            string name = null,
+            string lastDigits = null,
             Models.CardBrand? brand = null,
-            string expiry = "",
+            string expiry = null,
             Models.AddressDetails billingAddress = null,
-            string verificationStatus = "",
+            string verificationStatus = null,
             Models.CardVerificationDetails verification = null,
             Models.NetworkTransactionReferenceEntity networkTransactionReference = null,
             Models.AuthenticationResponse authenticationResult = null,

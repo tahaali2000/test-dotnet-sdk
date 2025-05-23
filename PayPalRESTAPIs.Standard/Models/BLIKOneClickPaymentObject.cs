@@ -33,7 +33,7 @@ namespace PayPalRESTAPIs.Standard.Models
         /// </summary>
         /// <param name="consumerReference">consumer_reference.</param>
         public BLIKOneClickPaymentObject(
-            string consumerReference = "")
+            string consumerReference = null)
         {
             this.ConsumerReference = consumerReference;
         }

@@ -40,11 +40,11 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="userAction">user_action.</param>
         /// <param name="paymentMethodPreference">payment_method_preference.</param>
         public PayPalWalletExperienceContext(
-            string brandName = "",
-            string locale = "",
+            string brandName = null,
+            string locale = null,
             Models.ShippingPreference? shippingPreference = Models.ShippingPreference.GETFROMFILE,
-            string returnUrl = "",
-            string cancelUrl = "",
+            string returnUrl = null,
+            string cancelUrl = null,
             Models.PayPalExperienceLandingPage? landingPage = Models.PayPalExperienceLandingPage.NOPREFERENCE,
             Models.PayPalExperienceUserAction? userAction = Models.PayPalExperienceUserAction.CONTINUE,
             Models.PayeePaymentMethodPreference? paymentMethodPreference = Models.PayeePaymentMethodPreference.UNRESTRICTED)

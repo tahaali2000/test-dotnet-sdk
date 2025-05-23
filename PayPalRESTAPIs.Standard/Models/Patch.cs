@@ -37,9 +37,9 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="from">from.</param>
         public Patch(
             Models.PatchOp op,
-            string path = "",
+            string path = null,
             object mValue = null,
-            string from = "")
+            string from = null)
         {
             this.Op = op;
             this.Path = path;

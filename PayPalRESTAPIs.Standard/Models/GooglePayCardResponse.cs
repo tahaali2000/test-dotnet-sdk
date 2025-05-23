@@ -38,8 +38,8 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="billingAddress">billing_address.</param>
         /// <param name="authenticationResult">authentication_result.</param>
         public GooglePayCardResponse(
-            string name = "",
-            string lastDigits = "",
+            string name = null,
+            string lastDigits = null,
             Models.CardType? type = null,
             Models.CardBrand? brand = null,
             Models.Address billingAddress = null,

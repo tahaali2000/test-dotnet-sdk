@@ -39,9 +39,9 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="items">items.</param>
         public OrderTrackerRequest(
             string captureId,
-            string trackingNumber = "",
+            string trackingNumber = null,
             Models.ShipmentCarrier? carrier = null,
-            string carrierNameOther = "",
+            string carrierNameOther = null,
             bool? notifyPayer = false,
             List<Models.OrderTrackerItem> items = null)
         {

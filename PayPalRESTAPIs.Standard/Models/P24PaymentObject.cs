@@ -38,12 +38,12 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="methodId">method_id.</param>
         /// <param name="methodDescription">method_description.</param>
         public P24PaymentObject(
-            string name = "",
-            string email = "",
-            string countryCode = "",
-            string paymentDescriptor = "",
-            string methodId = "",
-            string methodDescription = "")
+            string name = null,
+            string email = null,
+            string countryCode = null,
+            string paymentDescriptor = null,
+            string methodId = null,
+            string methodDescription = null)
         {
             this.Name = name;
             this.Email = email;

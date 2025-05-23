@@ -34,8 +34,8 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="givenName">given_name.</param>
         /// <param name="surname">surname.</param>
         public Name(
-            string givenName = "",
-            string surname = "")
+            string givenName = null,
+            string surname = null)
         {
             this.GivenName = givenName;
             this.Surname = surname;

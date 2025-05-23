@@ -37,11 +37,11 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="returnUrl">return_url.</param>
         /// <param name="cancelUrl">cancel_url.</param>
         public ExperienceContext(
-            string brandName = "",
-            string locale = "",
+            string brandName = null,
+            string locale = null,
             Models.ShippingPreference? shippingPreference = Models.ShippingPreference.GETFROMFILE,
-            string returnUrl = "",
-            string cancelUrl = "")
+            string returnUrl = null,
+            string cancelUrl = null)
         {
             this.BrandName = brandName;
             this.Locale = locale;

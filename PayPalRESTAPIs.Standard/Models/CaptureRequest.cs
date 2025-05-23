@@ -38,12 +38,12 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="paymentInstruction">payment_instruction.</param>
         /// <param name="softDescriptor">soft_descriptor.</param>
         public CaptureRequest(
-            string invoiceId = "",
-            string noteToPayer = "",
+            string invoiceId = null,
+            string noteToPayer = null,
             Models.Money amount = null,
             bool? finalCapture = false,
             Models.CapturePaymentInstruction paymentInstruction = null,
-            string softDescriptor = "")
+            string softDescriptor = null)
         {
             this.InvoiceId = invoiceId;
             this.NoteToPayer = noteToPayer;

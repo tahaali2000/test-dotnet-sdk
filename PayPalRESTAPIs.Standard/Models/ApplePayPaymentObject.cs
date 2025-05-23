@@ -39,10 +39,10 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="card">card.</param>
         /// <param name="attributes">attributes.</param>
         public ApplePayPaymentObject(
-            string id = "",
-            string token = "",
-            string name = "",
-            string emailAddress = "",
+            string id = null,
+            string token = null,
+            string name = null,
+            string emailAddress = null,
             Models.PhoneNumber phoneNumber = null,
             Models.ApplePayCardResponse card = null,
             Models.ApplePayAttributesResponse attributes = null)

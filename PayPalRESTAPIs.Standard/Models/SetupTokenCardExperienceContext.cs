@@ -37,10 +37,10 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="cancelUrl">cancel_url.</param>
         /// <param name="vaultInstruction">vault_instruction.</param>
         public SetupTokenCardExperienceContext(
-            string brandName = "",
-            string locale = "",
-            string returnUrl = "",
-            string cancelUrl = "",
+            string brandName = null,
+            string locale = null,
+            string returnUrl = null,
+            string cancelUrl = null,
             string vaultInstruction = "ON_CREATE_PAYMENT_TOKENS")
         {
             this.BrandName = brandName;

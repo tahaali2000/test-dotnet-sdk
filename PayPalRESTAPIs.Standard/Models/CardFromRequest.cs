@@ -34,8 +34,8 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="expiry">expiry.</param>
         /// <param name="lastDigits">last_digits.</param>
         public CardFromRequest(
-            string expiry = "",
-            string lastDigits = "")
+            string expiry = null,
+            string lastDigits = null)
         {
             this.Expiry = expiry;
             this.LastDigits = lastDigits;

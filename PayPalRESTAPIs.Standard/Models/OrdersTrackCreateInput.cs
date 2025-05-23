@@ -39,7 +39,7 @@ namespace PayPalRESTAPIs.Standard.Models
             string id,
             string contentType,
             Models.OrderTrackerRequest body,
-            string payPalAuthAssertion = "")
+            string payPalAuthAssertion = null)
         {
             this.Id = id;
             this.ContentType = contentType;

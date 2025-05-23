@@ -40,7 +40,7 @@ namespace PayPalRESTAPIs.Standard.Models
         public VenmoWalletVaultAttributes(
             Models.StoreInVaultInstruction storeInVault,
             Models.VenmoPaymentTokenUsageType usageType,
-            string description = "",
+            string description = null,
             Models.VenmoPaymentTokenUsagePattern? usagePattern = null,
             Models.VenmoPaymentTokenCustomerType? customerType = Models.VenmoPaymentTokenCustomerType.CONSUMER,
             bool? permitMultiplePaymentTokens = false)

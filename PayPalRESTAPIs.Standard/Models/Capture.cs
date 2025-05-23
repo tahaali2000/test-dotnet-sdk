@@ -49,10 +49,10 @@ namespace PayPalRESTAPIs.Standard.Models
         public Capture(
             Models.CaptureStatus? status = null,
             Models.CaptureStatusDetails statusDetails = null,
-            string id = "",
+            string id = null,
             Models.Money amount = null,
-            string invoiceId = "",
-            string customId = "",
+            string invoiceId = null,
+            string customId = null,
             Models.NetworkTransactionReference networkTransactionReference = null,
             Models.SellerProtection sellerProtection = null,
             bool? finalCapture = false,
@@ -60,8 +60,8 @@ namespace PayPalRESTAPIs.Standard.Models
             Models.DisbursementMode? disbursementMode = Models.DisbursementMode.INSTANT,
             List<Models.LinkDescription> links = null,
             Models.ProcessorResponse processorResponse = null,
-            string createTime = "",
-            string updateTime = "")
+            string createTime = null,
+            string updateTime = null)
         {
             this.Status = status;
             this.StatusDetails = statusDetails;

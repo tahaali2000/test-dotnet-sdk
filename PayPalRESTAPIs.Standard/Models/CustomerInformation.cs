@@ -35,8 +35,8 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="emailAddress">email_address.</param>
         /// <param name="phone">phone.</param>
         public CustomerInformation(
-            string id = "",
-            string emailAddress = "",
+            string id = null,
+            string emailAddress = null,
             Models.PhoneWithType phone = null)
         {
             this.Id = id;

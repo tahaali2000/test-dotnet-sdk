@@ -36,10 +36,10 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="phone">phone.</param>
         /// <param name="merchantCustomerId">merchant_customer_id.</param>
         public PayPalWalletCustomerRequest(
-            string id = "",
-            string emailAddress = "",
+            string id = null,
+            string emailAddress = null,
             Models.PhoneWithType phone = null,
-            string merchantCustomerId = "")
+            string merchantCustomerId = null)
         {
             this.Id = id;
             this.EmailAddress = emailAddress;

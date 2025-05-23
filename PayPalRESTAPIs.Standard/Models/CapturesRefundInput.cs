@@ -40,9 +40,9 @@ namespace PayPalRESTAPIs.Standard.Models
         public CapturesRefundInput(
             string captureId,
             string contentType,
-            string payPalRequestId = "",
+            string payPalRequestId = null,
             string prefer = "return=minimal",
-            string payPalAuthAssertion = "",
+            string payPalAuthAssertion = null,
             Models.RefundRequest body = null)
         {
             this.CaptureId = captureId;

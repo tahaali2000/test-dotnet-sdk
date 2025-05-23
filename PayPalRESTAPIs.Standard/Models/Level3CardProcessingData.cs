@@ -42,7 +42,7 @@ namespace PayPalRESTAPIs.Standard.Models
             Models.Money dutyAmount = null,
             Models.Money discountAmount = null,
             Models.Address shippingAddress = null,
-            string shipsFromPostalCode = "",
+            string shipsFromPostalCode = null,
             List<Models.LineItem> lineItems = null)
         {
             this.ShippingAmount = shippingAmount;

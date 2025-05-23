@@ -43,17 +43,17 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="address">address.</param>
         /// <param name="userName">user_name.</param>
         public VenmoPaymentToken(
-            string description = "",
+            string description = null,
             Models.VaultedDigitalWalletShippingDetails shipping = null,
             bool? permitMultiplePaymentTokens = false,
-            string usageType = "",
-            string customerType = "",
-            string emailAddress = "",
-            string payerId = "",
+            string usageType = null,
+            string customerType = null,
+            string emailAddress = null,
+            string payerId = null,
             Models.Name name = null,
             Models.PhoneWithType phone = null,
             Models.Address address = null,
-            string userName = "")
+            string userName = null)
         {
             this.Description = description;
             this.Shipping = shipping;

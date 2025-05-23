@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayPalRESTAPIs.Standard", "PayPalRESTAPIs.Standard/PayPalRESTAPIs.Standard.csproj", "{1f73f9e9-0ba0-45ef-8a94-e87b1efff101}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayPalRESTAPIs.Standard", "PayPalRESTAPIs.Standard/PayPalRESTAPIs.Standard.csproj", "{87320fb1-187e-4a3e-8fde-e8dd67c2e03f}"
 EndProject
 Global
     GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,10 +10,10 @@ Global
         Release|Any CPU = Release|Any CPU
     EndGlobalSection
     GlobalSection(ProjectConfigurationPlatforms) = postSolution
-        {1f73f9e9-0ba0-45ef-8a94-e87b1efff101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-        {1f73f9e9-0ba0-45ef-8a94-e87b1efff101}.Debug|Any CPU.Build.0 = Debug|Any CPU
-        {1f73f9e9-0ba0-45ef-8a94-e87b1efff101}.Release|Any CPU.ActiveCfg = Release|Any CPU
-        {1f73f9e9-0ba0-45ef-8a94-e87b1efff101}.Release|Any CPU.Build.0 = Release|Any CPU
+        {87320fb1-187e-4a3e-8fde-e8dd67c2e03f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {87320fb1-187e-4a3e-8fde-e8dd67c2e03f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {87320fb1-187e-4a3e-8fde-e8dd67c2e03f}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {87320fb1-187e-4a3e-8fde-e8dd67c2e03f}.Release|Any CPU.Build.0 = Release|Any CPU
     EndGlobalSection
     GlobalSection(SolutionProperties) = preSolution
         HideSolutionNode = FALSE

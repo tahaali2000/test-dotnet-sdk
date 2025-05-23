@@ -40,7 +40,7 @@ namespace PayPalRESTAPIs.Standard.Models
         public PayPalWalletVaultInstruction(
             Models.PayPalPaymentTokenUsageType usageType,
             Models.StoreInVaultInstruction? storeInVault = null,
-            string description = "",
+            string description = null,
             Models.PayPalPaymentTokenUsagePattern? usagePattern = null,
             Models.PayPalPaymentTokenCustomerType? customerType = Models.PayPalPaymentTokenCustomerType.CONSUMER,
             bool? permitMultiplePaymentTokens = false)

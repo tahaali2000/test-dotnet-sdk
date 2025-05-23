@@ -33,7 +33,7 @@ namespace PayPalRESTAPIs.Standard.Models
         /// </summary>
         /// <param name="fullName">full_name.</param>
         public ShippingName(
-            string fullName = "")
+            string fullName = null)
         {
             this.FullName = fullName;
         }

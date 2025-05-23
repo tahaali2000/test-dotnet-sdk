@@ -37,9 +37,9 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="aliasKey">alias_key.</param>
         public BLIKOneClickPaymentRequest(
             string consumerReference,
-            string authCode = "",
-            string aliasLabel = "",
-            string aliasKey = "")
+            string authCode = null,
+            string aliasLabel = null,
+            string aliasKey = null)
         {
             this.AuthCode = authCode;
             this.ConsumerReference = consumerReference;

@@ -42,15 +42,15 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="expiry">expiry.</param>
         /// <param name="binDetails">bin_details.</param>
         public CardResponse(
-            string name = "",
-            string lastDigits = "",
+            string name = null,
+            string lastDigits = null,
             Models.CardBrand? brand = null,
             List<Models.CardBrand> availableNetworks = null,
             Models.CardType? type = null,
             Models.AuthenticationResponse authenticationResult = null,
             Models.CardAttributesResponse attributes = null,
             Models.CardFromRequest fromRequest = null,
-            string expiry = "",
+            string expiry = null,
             Models.BinDetails binDetails = null)
         {
             this.Name = name;

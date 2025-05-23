@@ -39,9 +39,9 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="brand">brand.</param>
         /// <param name="billingAddress">billing_address.</param>
         public ApplePayTokenizedCard(
-            string name = "",
-            string number = "",
-            string expiry = "",
+            string name = null,
+            string number = null,
+            string expiry = null,
             Models.CardBrand? cardType = null,
             Models.CardType? type = null,
             Models.CardBrand? brand = null,

@@ -44,18 +44,18 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="billingAddress">billing_address.</param>
         /// <param name="countryCode">country_code.</param>
         public ApplePayCardResponse(
-            string name = "",
-            string lastDigits = "",
+            string name = null,
+            string lastDigits = null,
             Models.CardBrand? brand = null,
             List<Models.CardBrand> availableNetworks = null,
             Models.CardType? type = null,
             Models.AuthenticationResponse authenticationResult = null,
             Models.CardAttributesResponse attributes = null,
             Models.CardFromRequest fromRequest = null,
-            string expiry = "",
+            string expiry = null,
             Models.BinDetails binDetails = null,
             Models.Address billingAddress = null,
-            string countryCode = "")
+            string countryCode = null)
         {
             this.Name = name;
             this.LastDigits = lastDigits;

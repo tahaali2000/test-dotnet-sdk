@@ -39,7 +39,7 @@ namespace PayPalRESTAPIs.Standard.Models
         public OrdersConfirmInput(
             string id,
             string contentType,
-            string payPalClientMetadataId = "",
+            string payPalClientMetadataId = null,
             string prefer = "return=minimal",
             Models.ConfirmOrderRequest body = null)
         {

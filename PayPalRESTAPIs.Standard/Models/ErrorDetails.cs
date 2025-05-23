@@ -39,11 +39,11 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="description">description.</param>
         public ErrorDetails(
             string issue,
-            string field = "",
-            string mValue = "",
+            string field = null,
+            string mValue = null,
             string location = "body",
             List<Models.LinkDescription> links = null,
-            string description = "")
+            string description = null)
         {
             this.Field = field;
             this.MValue = mValue;

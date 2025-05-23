@@ -34,7 +34,7 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="invoiceId">invoice_id.</param>
         /// <param name="taxTotal">tax_total.</param>
         public Level2CardProcessingData(
-            string invoiceId = "",
+            string invoiceId = null,
             Models.Money taxTotal = null)
         {
             this.InvoiceId = invoiceId;

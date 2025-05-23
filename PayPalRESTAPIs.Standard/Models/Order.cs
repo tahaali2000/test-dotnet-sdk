@@ -42,9 +42,9 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="status">status.</param>
         /// <param name="links">links.</param>
         public Order(
-            string createTime = "",
-            string updateTime = "",
-            string id = "",
+            string createTime = null,
+            string updateTime = null,
+            string id = null,
             Models.PaymentSourceResponse paymentSource = null,
             Models.CheckoutPaymentIntent? intent = null,
             Models.ProcessingInstruction? processingInstruction = Models.ProcessingInstruction.NOINSTRUCTION,

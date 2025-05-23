@@ -36,8 +36,8 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="experienceContext">experience_context.</param>
         /// <param name="attributes">attributes.</param>
         public VenmoWalletRequest(
-            string vaultId = "",
-            string emailAddress = "",
+            string vaultId = null,
+            string emailAddress = null,
             Models.VenmoWalletExperienceContext experienceContext = null,
             Models.VenmoWalletAdditionalAttributes attributes = null)
         {

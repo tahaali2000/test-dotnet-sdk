@@ -35,9 +35,9 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="countryCode">country_code.</param>
         /// <param name="bic">bic.</param>
         public EPSPaymentObject(
-            string name = "",
-            string countryCode = "",
-            string bic = "")
+            string name = null,
+            string countryCode = null,
+            string bic = null)
         {
             this.Name = name;
             this.CountryCode = countryCode;

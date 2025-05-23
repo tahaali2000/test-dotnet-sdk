@@ -36,10 +36,10 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="bic">bic.</param>
         /// <param name="ibanLastChars">iban_last_chars.</param>
         public SofortPaymentObject(
-            string name = "",
-            string countryCode = "",
-            string bic = "",
-            string ibanLastChars = "")
+            string name = null,
+            string countryCode = null,
+            string bic = null,
+            string ibanLastChars = null)
         {
             this.Name = name;
             this.CountryCode = countryCode;

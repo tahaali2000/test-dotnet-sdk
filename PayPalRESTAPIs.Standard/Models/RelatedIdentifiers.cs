@@ -35,9 +35,9 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="authorizationId">authorization_id.</param>
         /// <param name="captureId">capture_id.</param>
         public RelatedIdentifiers(
-            string orderId = "",
-            string authorizationId = "",
-            string captureId = "")
+            string orderId = null,
+            string authorizationId = null,
+            string captureId = null)
         {
             this.OrderId = orderId;
             this.AuthorizationId = authorizationId;

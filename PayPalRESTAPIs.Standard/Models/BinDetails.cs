@@ -36,9 +36,9 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="binCountryCode">bin_country_code.</param>
         /// <param name="products">products.</param>
         public BinDetails(
-            string bin = "",
-            string issuingBank = "",
-            string binCountryCode = "",
+            string bin = null,
+            string issuingBank = null,
+            string binCountryCode = null,
             List<string> products = null)
         {
             this.Bin = bin;

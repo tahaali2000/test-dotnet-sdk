@@ -38,8 +38,8 @@ namespace PayPalRESTAPIs.Standard.Models
         public PaymentInstruction(
             List<Models.PlatformFee> platformFees = null,
             Models.DisbursementMode? disbursementMode = Models.DisbursementMode.INSTANT,
-            string payeePricingTierId = "",
-            string payeeReceivableFxRateId = "")
+            string payeePricingTierId = null,
+            string payeeReceivableFxRateId = null)
         {
             this.PlatformFees = platformFees;
             this.DisbursementMode = disbursementMode;

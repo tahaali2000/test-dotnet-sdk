@@ -35,7 +35,7 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="fields">fields.</param>
         public OrdersGetInput(
             string id,
-            string fields = "")
+            string fields = null)
         {
             this.Id = id;
             this.Fields = fields;

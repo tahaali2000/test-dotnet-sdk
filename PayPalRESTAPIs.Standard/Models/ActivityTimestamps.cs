@@ -34,8 +34,8 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="createTime">create_time.</param>
         /// <param name="updateTime">update_time.</param>
         public ActivityTimestamps(
-            string createTime = "",
-            string updateTime = "")
+            string createTime = null,
+            string updateTime = null)
         {
             this.CreateTime = createTime;
             this.UpdateTime = updateTime;

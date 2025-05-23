@@ -39,13 +39,13 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="consumerIp">consumer_ip.</param>
         /// <param name="consumerUserAgent">consumer_user_agent.</param>
         public BLIKExperienceContext(
-            string brandName = "",
-            string locale = "",
+            string brandName = null,
+            string locale = null,
             Models.ShippingPreference? shippingPreference = Models.ShippingPreference.GETFROMFILE,
-            string returnUrl = "",
-            string cancelUrl = "",
-            string consumerIp = "",
-            string consumerUserAgent = "")
+            string returnUrl = null,
+            string cancelUrl = null,
+            string consumerIp = null,
+            string consumerUserAgent = null)
         {
             this.BrandName = brandName;
             this.Locale = locale;

@@ -39,7 +39,7 @@ namespace PayPalRESTAPIs.Standard.Models
         public ApplePayDecryptedTokenData(
             Models.ApplePayTokenizedCard tokenizedCard,
             Models.Money transactionAmount = null,
-            string deviceManufacturerId = "",
+            string deviceManufacturerId = null,
             Models.ApplePayPaymentDataType? paymentDataType = null,
             Models.ApplePayPaymentData paymentData = null)
         {

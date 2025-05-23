@@ -39,8 +39,8 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="assuranceDetails">assurance_details.</param>
         /// <param name="attributes">attributes.</param>
         public GooglePayRequest(
-            string name = "",
-            string emailAddress = "",
+            string name = null,
+            string emailAddress = null,
             Models.PhoneNumberWithCountryCode phoneNumber = null,
             object card = null,
             Models.GooglePayDecryptedTokenData decryptedToken = null,

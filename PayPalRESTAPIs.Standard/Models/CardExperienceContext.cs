@@ -34,8 +34,8 @@ namespace PayPalRESTAPIs.Standard.Models
         /// <param name="returnUrl">return_url.</param>
         /// <param name="cancelUrl">cancel_url.</param>
         public CardExperienceContext(
-            string returnUrl = "",
-            string cancelUrl = "")
+            string returnUrl = null,
+            string cancelUrl = null)
         {
             this.ReturnUrl = returnUrl;
             this.CancelUrl = cancelUrl;
