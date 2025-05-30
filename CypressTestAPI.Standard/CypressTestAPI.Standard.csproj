@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ - CypressTestAPI.Standard
+ -
+ - This file was automatically generated for Newtest by APIMATIC v3.0 ( https://www.apimatic.io ).
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>TestSDK</AssemblyName>
+    <Version>2.1.8.0</Version>
+    <Authors>r</Authors>
+    <Owners></Owners>
+    <Product>CypressTestAPI.Standard</Product>
+    <Copyright>Copyright ©  2019</Copyright>
+    <AssemblyVersion>2.1.8.0</AssemblyVersion>
+    <FileVersion>2.1.8.0</FileVersion>
+    <Description>r</Description>
+    <LangVersion>7.3</LangVersion>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <PackageId>TestSDK</PackageId>
+    <PackageTags>th</PackageTags>
+    <RepositoryUrl>https://github.com/tahaali2000/test-dotnet-sdk.git</RepositoryUrl>
+    <PackRepositoryTypeageId>git</PackRepositoryTypeageId>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" Link="README.md" />
+    <PackageReference Include="APIMatic.Core" Version= "[0.4.9, 0.5.0)" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+        <_Parameter1>CypressTestAPI.Tests</_Parameter1>
+    </AssemblyAttribute>
+    <None Include="..\README.md" Pack="true" PackagePath="\"/>
+    <None Include="..\LICENSE" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>

@@ -18,7 +18,7 @@ To configure the SDK to use a proxy server, initialize the proxy configuration d
 ## Usage Example
 
 ```csharp
-var client = new PayPalRESTAPIsClient.Builder()
+var client = new CypressTestAPIClient.Builder()
     .HttpClientConfig(config => config
         .Proxy(
             new ProxyConfigurationBuilder("http://localhost")

@@ -21,12 +21,12 @@ To use a custom logger, you can provide any implementation of Microsoft.Extensio
 
 ```csharp
 using Microsoft.Extensions.Logging;
-using PayPalRESTAPIs.Standard;
+using CypressTestAPI.Standard;
 
 var factory = LoggerFactory.Create(builder => { builder.AddConsole(); });
-var logger = factory.CreateLogger<PayPalRESTAPIsClient>();
+var logger = factory.CreateLogger<CypressTestAPIClient>();
 
-var client = new PayPalRESTAPIsClient.Builder()
+var client = new CypressTestAPIClient.Builder()
     .LoggingConfig(config => config
         .Logger(logger)
         .LogLevel(LogLevel.Information)
